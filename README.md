@@ -1,5 +1,5 @@
 # Podman RPM builder
-*This project aims to provide an way to build an RPM package from source inside a Podman container.*
+*This project aims to provide a way to build an RPM package from source inside a Podman container.*
 
 # How to use
 1. Create the container image: `buildah bud -t c8-rpmbuilder` (if you want to change the tag, make sure to put yours in the `build.sh` file).
